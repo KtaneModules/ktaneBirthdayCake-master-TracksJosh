@@ -14,8 +14,11 @@ MonoBehaviour:
   id: birthdayCake
   title: Birthday Cake
   author: TracksJosh
-  description: Candles will appear every year until I turn 32 years old. I want to
+  description: 'Candles will appear every year until I turn 32 years old. I want to
     live to see this happen. But once I turn 32, I remain 32.
+
+
+    Manual: ktane.timwi.de/HTML/Birthday%20Cake.html'
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 411831694a3af6e4baeb051efe704160, type: 3}
