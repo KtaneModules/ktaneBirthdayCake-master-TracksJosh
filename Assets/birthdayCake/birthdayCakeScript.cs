@@ -120,6 +120,7 @@ public class birthdayCakeScript : MonoBehaviour {
                         while ((int)Bomb.GetTime() % 60 != time) yield return "trycancel Halted waiting to press the cake due to a cancel request.";
                         yield return "end waiting music";
                         cake.OnInteract();
+                        yield break;
                     }
                 }
                 yield return "sendtochaterror!f The specified digits '" + parameters[1] + "' are invalid!";
